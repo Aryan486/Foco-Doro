@@ -12,7 +12,7 @@ export const Focus = ({ newSubject }) =>{
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Focus Feature App</Text>
+      <Text style={styles.title}>Foco-Doro</Text>
       <View style={styles.inputContainer}>
         <TextInput style={styles.TextInput} onChangeText={val => setInput(val)} label="What's in your mind?" />
         <View style={styles.button}>

@@ -50,7 +50,7 @@ export const Buttons = ({ minutes }) =>{
                     <RoundedButton style={styles.button} size={60} title={10} onPress={( )=>{ minutes(10) }} />
                     <RoundedButton style={styles.button} size={60} title={15} onPress={( )=>{ minutes(15) }} />
                     <RoundedButton style={styles.button} size={60} title={20} onPress={( )=>{ minutes(20) }} />
-                    <RoundedButton style={styles.button} size={60} title="Add" onPress={customTime} />
+                    <RoundedButton style={styles.button} size={60} title="+" onPress={customTime} />
                 </View>
             )
             }
